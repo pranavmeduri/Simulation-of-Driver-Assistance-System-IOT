@@ -1,4 +1,4 @@
-# MS
+# IOT
 This repository contains the code for Advanced Driver Assistance System using 8 senors overall and it is gonna be a fun project.
 
 Summary of the Project:
