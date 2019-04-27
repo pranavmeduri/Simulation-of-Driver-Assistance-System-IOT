@@ -15,3 +15,40 @@ We have simulated our driver assistance system by using a small toy car. We have
 Coding of the Project:
 
  Languages used c,html,php,sql
+ 
+ Requirements prior to Environmental Setup
+
+1)  Download Arduino software for the system (https://www.arduino.cc/en/Main/Software)
+2)  Male and Female connectors                     - (20) 
+3)  Bread Board                                    - (2)
+4)  NodeMCU                                        - (2)
+5)  OrangePi Lite                                  - (1)
+6)  SD card(16gb)                                  - (1)
+7)  Micro USB cable                                - (2)
+8)  LDR / photoresistor                            - (1)
+9)  Sound Sensor                                   - (1)
+10) Ultrasonic Sensor(HC-SR04)                     - (2)
+11) Humidity and Temperature Sensor (DHT11)        - (1)
+12) Vibration Sensor (SW-420)                      - (1)
+13) Led bulbs                                      - (10)
+
+Instructions of Execution
+
+Step 1: Install Ardunio IDE in the system
+
+Step 2: Fix all the sensors and NodeMCU on the Bread Board
+
+Step 3: Connect the sensors to NodeMCU with the help of connectors
+Step 4: Write the code in the IDE and check for any errors and then flash the program into the NodeMCU.(For two NodeMCUs)
+
+Step 5: Check the computer screen for output display and if the output is relevant.
+
+Step 6: With the help of Win32DiskImager flash the SD card with Raspbian Software(http://www.orangepi.org/downloadresources/)
+
+Step 7: Insert the SD card into the OrangePi Lite and boot it.
+
+Step 8: After successfull installation setup phpMyAdmin for database
+
+Step 9: Insert all php related files into var/www/html and run them in browser(localhost/main.php)
+
+Step 10:Check if the table in the database is being updated and whether the values are correct. 
